@@ -1,0 +1,10 @@
+{
+  "description": "A premium portfolio showcasing Ravi Chauhan’s engineering work, expertise, and results to help founders and businesses find a trusted technical partner.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
