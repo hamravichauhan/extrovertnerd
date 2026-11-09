@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router";
+import raviPhoto from "./assets/ravi.jpg";
+import setupPhoto from "./assets/setup.jpg";
 
 type Theme = "light" | "dark";
 
@@ -261,7 +263,7 @@ export function HomePage() {
             <div className="hero-portrait-card">
               <div className="hero-portrait-img-wrap">
                 <img
-                  src="/ravi.jpg"
+                  src={raviPhoto}
                   alt="Ravi Chauhan — full-stack developer in Goa"
                   className="hero-portrait-img"
                   loading="eager"
@@ -332,7 +334,7 @@ function SetupRating() {
       <div className="setup-sketch" aria-label="Photo of Ravi's desk setup">
         <div className="setup-photo-frame">
           <img
-            src="/setup.jpg"
+            src={setupPhoto}
             alt="Ravi's desk setup with Mac mini, monitor, laptop, and keyboard in Goa"
             className="setup-photo"
             loading="lazy"
@@ -473,7 +475,7 @@ export function AboutPage() {
       <section className="about shell" data-reveal>
         <div className="about-label">
           <div className="about-portrait">
-            <img src="/ravi.jpg" alt="Ravi Chauhan in Goa" className="about-photo" loading="lazy" />
+            <img src={raviPhoto} alt="Ravi Chauhan in Goa" className="about-photo" loading="lazy" />
           </div>
           <p className="eyebrow">A little context</p>
           <p className="margin-note">Quietly obsessive about the details.</p>
